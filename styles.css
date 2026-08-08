@@ -455,15 +455,37 @@ header {
 }
 
 .app-icon {
-  font-size: 1.15rem;
-  width: 32px;
-  height: 32px;
+  font-size: 1.25rem;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  flex-shrink: 0;
+  transition: var(--transition-fast);
+}
+
+.app-item:hover .app-icon,
+.app-item.active .app-icon {
+  background-color: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.25);
+  transform: scale(1.05);
+}
+
+.details-icon-box {
+  width: 54px;
+  height: 54px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.04);
-  border-radius: 8px;
+  border: 1px solid var(--border-dim);
+  border-radius: 14px;
   flex-shrink: 0;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
 }
 
 .app-info-name {

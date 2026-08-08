@@ -67,6 +67,15 @@
     localStorage.setItem('showcase_user_apps_v2', JSON.stringify(appsList));
   }
 
+  function renderAppIcon(app, size = '1.25rem') {
+    if (!app.icon) return '📌';
+    if (app.icon.includes(':') || app.icon.includes('-')) {
+      const colorStyle = app.iconColor ? `color: ${app.iconColor};` : '';
+      return `<iconify-icon icon="${escapeHtml(app.icon)}" style="font-size: ${size}; ${colorStyle}"></iconify-icon>`;
+    }
+    return app.icon;
+  }
+
   // --- Renderizado de Lista y Detalles ---
   function renderList() {
     const filtered = appsList.filter(app => {
@@ -95,7 +104,7 @@
       return `
         <div class="app-item ${isActive ? 'active' : ''} hover-trigger" data-id="${app.id}">
           <div class="app-item-left">
-            <div class="app-icon">${app.icon || '📌'}</div>
+            <div class="app-icon">${renderAppIcon(app, '1.25rem')}</div>
             <div>
               <div class="app-info-name">${escapeHtml(app.name)}</div>
               <div class="app-info-category">${escapeHtml(app.tag || app.category)}</div>
@@ -148,7 +157,7 @@
             </div>
             <h2 class="details-title">${escapeHtml(app.name)}</h2>
           </div>
-          <span style="font-size: 2.2rem;">${app.icon || '📌'}</span>
+          <div class="details-icon-box">${renderAppIcon(app, '2.1rem')}</div>
         </div>
 
         <p class="details-short">${escapeHtml(app.shortDesc)}</p>
