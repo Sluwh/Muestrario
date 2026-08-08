@@ -651,5 +651,59 @@ const initialApps = [
         ],
         command: "Ctrl + K",
         os: ["Windows", "macOS", "Linux"]
+    },
+    {
+        id: "crystaldiskinfo",
+        name: "CrystalDiskInfo",
+        category: "Sistema",
+        tag: "Salud de Discos",
+        icon: "💾",
+        website: "https://crystalmark.info/en/software/crystaldiskinfo/",
+        shortDesc: "Herramienta de monitoreo de salud, temperatura y estado S.M.A.R.T. de discos SSD y HDD.",
+        fullDesc: "CrystalDiskInfo me permite verificar rápidamente la salud de mis unidades de almacenamiento SSD y discos duros, leyendo los atributos S.M.A.R.T., horas de encendido y temperaturas en tiempo real.",
+        features: [
+            "Lectura del estado de salud (Bueno, Riesgo, Malo)",
+            "Monitoreo de temperatura en tiempo real y alertas",
+            "Inspección detallada de atributos S.M.A.R.T. y horas de uso",
+            "Soporte para SSDs NVMe, SATA y discos duros externos"
+        ],
+        command: "Ejecución Directa",
+        os: ["Windows"]
+    },
+    {
+        id: "handbrake",
+        name: "HandBrake",
+        category: "Multimedia",
+        tag: "Conversor de Video",
+        icon: "🎞️",
+        website: "https://handbrake.fr",
+        shortDesc: "Transcodificador de video de código abierto para convertir y comprimir formatos de video.",
+        fullDesc: "HandBrake me permite convertir videos a formatos optimizados (MP4, MKV), reducir el peso de archivos sin perder calidad y ajustar códecs como H.264, HEVC o AV1.",
+        features: [
+            "Compresión eficiente manteniendo calidad visual",
+            "Soporte para codificación AV1, H.265 (HEVC) y H.264",
+            "Ajustes preestablecidos para múltiples dispositivos",
+            "Procesamiento en lote de carpetas de video"
+        ],
+        command: "Ctrl + Add",
+        os: ["Windows", "macOS", "Linux"]
+    },
+    {
+        id: "notion",
+        name: "Notion",
+        category: "Productividad",
+        tag: "Workspace & Notas",
+        icon: "📝",
+        website: "https://www.notion.so",
+        shortDesc: "Espacio de trabajo todo en uno para notas, bases de datos, tareas y documentos.",
+        fullDesc: "Notion es mi espacio para estructurar proyectos, crear wikis personales, organizar listas y mantener bases de datos vinculadas de forma flexible.",
+        features: [
+            "Bases de datos relacionales con vistas de tabla, Kanban y calendario",
+            "Organización modular basada en bloques de texto y contenido",
+            "Sincronización en tiempo real entre escritorio y móvil",
+            "Plantillas personalizables para gestión de proyectos"
+        ],
+        command: "Ctrl + N",
+        os: ["Windows", "macOS", "Web", "Mobile"]
     }
 ];
