@@ -252,25 +252,6 @@ const initialApps = [
         os: ["Windows", "Linux"]
     },
     {
-        id: "rave",
-        name: "Rave App",
-        category: "Multimedia",
-        tag: "Streaming en Grupo",
-        icon: "lucide:popcorn",
-        iconColor: "#EF4444",
-        website: "https://rave.io",
-        shortDesc: "Aplicación para ver videos, películas y escuchar música sincronizada con amigos.",
-        fullDesc: "Rave permite sincronizar la reproducción de contenido multimedia en tiempo real mientras conversas o chateas por voz con amigos en salas privadas.",
-        features: [
-            "Sincronización perfecta de reproducción de video en tiempo real",
-            "Salas de chat de texto y voz integradas",
-            "Compatibilidad con múltiples plataformas de video",
-            "Interfaz móvil y de escritorio coordinada"
-        ],
-        command: "Inicio Directo",
-        os: ["Windows", "macOS", "iOS", "Android"]
-    },
-    {
         id: "navicat",
         name: "Navicat Premium",
         category: "Desarrollo",
