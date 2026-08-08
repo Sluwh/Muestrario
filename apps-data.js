@@ -752,7 +752,7 @@ const initialApps = [
         tag: "Transcripción & Voz IA",
         icon: "lucide:mic",
         iconColor: "#8B5CF6",
-        website: "https://github.com/carlrobertoh/handy",
+        website: "https://github.com/cjpais/handy",
         shortDesc: "Herramienta de transcripción y dictado de voz a texto local asistida por IA.",
         fullDesc: "Handy es una aplicación de escritorio ligera que te permite dictar texto en cualquier ventana mediante atajos globales de teclado utilizando modelos de lenguaje/reconocimiento local Whisper.",
         features: [
