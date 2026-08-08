@@ -705,5 +705,79 @@ const initialApps = [
         ],
         command: "Ctrl + N",
         os: ["Windows", "macOS", "Web", "Mobile"]
+    },
+    {
+        id: "handy",
+        name: "Handy",
+        category: "Productividad",
+        tag: "Transcripción & Voz IA",
+        icon: "🎙️",
+        website: "https://github.com/carlrobertoh/handy",
+        shortDesc: "Herramienta de transcripción y dictado de voz a texto local asistida por IA.",
+        fullDesc: "Handy es una aplicación de escritorio ligera que te permite dictar texto en cualquier ventana mediante atajos globales de teclado utilizando modelos de lenguaje/reconocimiento local Whisper.",
+        features: [
+            "Dictado por voz instantáneo con Whisper offline",
+            "Atajo global configurable para dictar en cualquier app",
+            "Mapeo directo al portapapeles o inserción automática",
+            "Privacidad total sin enviar audio a servidores externos"
+        ],
+        command: "Alt + Space",
+        os: ["Windows", "macOS", "Linux"]
+    },
+    {
+        id: "hwinfo",
+        name: "HWiNFO64",
+        category: "Sistema",
+        tag: "Diagnóstico Hardware",
+        icon: "📊",
+        website: "https://www.hwinfo.com/",
+        shortDesc: "Herramienta profesional de diagnóstico e información detallada del hardware del sistema.",
+        fullDesc: "HWiNFO64 proporciona monitoreo exhaustivo de sensores en tiempo real (temperaturas, voltajes, frecuencias, consumo térmico) y especificaciones detalladas de cada componente.",
+        features: [
+            "Monitoreo preciso de sensores de CPU, GPU, RAM y SSD",
+            "Detección detallada de arquitectura e información de componentes",
+            "Alertas personalizadas por sobrecalentamiento o voltajes",
+            "Integración de lecturas con RTSS y MSI Afterburner"
+        ],
+        command: "Ejecutar Administrador",
+        os: ["Windows"]
+    },
+    {
+        id: "upscayl",
+        name: "Upscayl",
+        category: "Diseño",
+        tag: "Escalado IA de Imágenes",
+        icon: "🖼️",
+        website: "https://www.upscayl.org/",
+        shortDesc: "Mejorador y escalador de imágenes por Inteligencia Artificial basado en modelos locales Real-ESRGAN.",
+        fullDesc: "Upscayl es un escalador de imágenes de código abierto que utiliza modelos de aprendizaje profundo para aumentar la resolución y nitidez de imágenes sin perder calidad.",
+        features: [
+            "Escalado de resolución hasta 4x / 8x sin pérdida de detalle",
+            "Procesamiento 100% local acelerado por GPU (Vulkan)",
+            "Modelos IA especializados (Digital Art, Fast Real, Sharpen)",
+            "Procesamiento por lotes de carpetas completas"
+        ],
+        command: "Ctrl + U",
+        os: ["Windows", "macOS", "Linux"]
+    },
+    {
+        id: "lockhunter",
+        name: "LockHunter",
+        category: "Utilidades",
+        tag: "Desbloqueador de Archivos",
+        icon: "🔓",
+        website: "https://lockhunter.com/",
+        shortDesc: "Herramienta para identificar y liberar archivos o carpetas bloqueados por procesos en ejecución.",
+        fullDesc: "LockHunter te muestra qué programa está impidiendo borrar, mover o renombrar un archivo y te permite finalizar el proceso o liberar el bloqueo de forma segura.",
+        features: [
+            "Visualización exacta del proceso que bloquea un archivo",
+            "Opción para cerrar proceso, desbloquear o eliminar al reiniciar",
+            "Integración directa en el menú contextual del Explorador",
+            "Manejo seguro enviando archivos a la Papelera de reciclaje"
+        ],
+        command: "Menú Contextual",
+        os: ["Windows"]
     }
 ];
+
+
