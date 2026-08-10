@@ -1,4 +1,4 @@
-# DEMONEYESS
+# @demoneyess
 
 Una plataforma web cibernética minimalista para organizar y visualizar las aplicaciones, utilidades y herramientas instaladas en mi sistema.
 
