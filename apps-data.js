@@ -800,5 +800,24 @@ const initialApps = [
         ],
         command: "Menú Contextual",
         os: ["Windows"]
+    },
+    {
+        id: "notebooklm",
+        name: "NotebookLM",
+        category: "Productividad",
+        tag: "Asistente de Investigación IA",
+        icon: "simple-icons:google",
+        iconColor: "#4285F4",
+        website: "https://notebooklm.google.com",
+        shortDesc: "Cuaderno de investigación y síntesis asistido por IA para analizar y estructurar tus propios documentos.",
+        fullDesc: "Entorno de investigación inteligente potenciado por modelos Gemini de Google. Permite cargar documentos PDF, texto, audios, diapositivas y enlaces web para realizar consultas con citas trazables a las fuentes originales y generar resúmenes de audio (Audio Overviews).",
+        features: [
+            "Análisis y síntesis directa de documentos (PDF, TXT, Google Docs, Audio)",
+            "Respuestas fundamentadas con citas exactas trazables a los archivos fuente",
+            "Generación de resúmenes de audio en formato podcast interactivo (Audio Overview)",
+            "Creación automatizada de guías de estudio, esquemas y preguntas frecuentes"
+        ],
+        command: "Navegador Web / PWA",
+        os: ["Web", "Mobile"]
     }
 ];

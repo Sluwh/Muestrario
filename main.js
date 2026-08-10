@@ -125,6 +125,11 @@
     appsList = [...initialApps];
     saveAppsData();
 
+    const preloaderCounter = document.getElementById('preloader-counter');
+    if (preloaderCounter) {
+      preloaderCounter.innerText = `[${appsList.length} NODES FOUND]`;
+    }
+
     if (appsList.length > 0) {
       activeAppId = appsList[0].id;
     }
