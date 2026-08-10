@@ -1,7 +1,6 @@
 /**
  * Base de Datos Completa de Aplicaciones Reales del Usuario
- * Sin aplicaciones inventadas - Filtradas directamente desde el sistema
- * Todo en idioma Español
+ * Información directa, técnica y al grano sin rodeos.
  */
 const initialApps = [
     {
@@ -13,7 +12,7 @@ const initialApps = [
         iconColor: "#7C3AED",
         website: "https://obsidian.md",
         shortDesc: "Base de conocimiento local en Markdown con mapa visual de conexiones interconectadas.",
-        fullDesc: "Obsidian es mi segundo cerebro. Almacena todas mis notas localmente en archivos Markdown de texto plano, garantizando privacidad total y acceso ultrarrápido sin depender de la nube.",
+        fullDesc: "Entorno de conocimiento local basado en archivos Markdown de texto plano. Garantiza privacidad total y acceso ultrarrápido a notas enlazadas sin dependencia de la nube.",
         features: [
             "Notas enlazadas bidireccionalmente ([[Nota]])",
             "Vista de grafo interactivo de conceptos e ideas",
@@ -32,7 +31,7 @@ const initialApps = [
         iconColor: "#60A5FA",
         website: "https://funk.eu/hrc/",
         shortDesc: "Utilidad ligera para cambiar la resolución de pantalla al instante mediante atajos de teclado.",
-        fullDesc: "HRC me permite cambiar entre distintas resoluciones de pantalla y tasas de refresco con un solo atajo de teclado, ideal para jugar juegos en resoluciones estiradas.",
+        fullDesc: "Cambia instantáneamente entre distintas resoluciones de pantalla y tasas de refresco con atajos de teclado personalizados.",
         features: [
             "Cambio instantáneo de resolución con Hotkeys",
             "Soporte para perfiles de resolución personalizados",
@@ -51,7 +50,7 @@ const initialApps = [
         iconColor: "#F43F5E",
         website: "https://store.steampowered.com/app/1366800/Crosshair_X/",
         shortDesc: "Herramienta de overlay de retícula personalizada para mejorar la precisión visual en pantalla.",
-        fullDesc: "Crosshair X me permite superponer una retícula personalizada y centrada en pantalla para juegos y aplicaciones que requieren precisión visual rápida y alineación de pantalla.",
+        fullDesc: "Superpone una retícula personalizada y centrada en pantalla para juegos y aplicaciones que requieren alineación y precisión visual.",
         features: [
             "Personalización completa de retícula, opacidad y color",
             "Superposición acelerada por GPU sobre cualquier ventana",
@@ -70,7 +69,7 @@ const initialApps = [
         iconColor: "#F59E0B",
         website: "https://www.techpowerup.com/download/techpowerup-throttlestop/",
         shortDesc: "Herramienta avanzada de monitoreo y ajuste fino de voltaje, frecuencia y Thermal Throttling de CPU.",
-        fullDesc: "ThrottleStop es una herramienta esencial para monitorear y corregir el estrangulamiento térmico del procesador (thermal throttling). Permite ajustar perfiles de voltaje, desactivar límites de energía no deseados y mantener frecuencias de reloj estables en cargas intensas.",
+        fullDesc: "Monitorea y corrige el estrangulamiento térmico del procesador (thermal throttling). Ajusta perfiles de voltaje, anula límites de energía no deseados y estabiliza frecuencias bajo carga.",
         features: [
             "Monitoreo de frecuencia, voltaje y temperatura en tiempo real",
             "Ajuste de perfiles de energía (Performance, Game, Battery)",
@@ -89,7 +88,7 @@ const initialApps = [
         iconColor: "#10B981",
         website: "https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/",
         shortDesc: "Servidor de estadísticas de rendimiento en pantalla (OSD) y limitación precisa de cuadros (FPS).",
-        fullDesc: "RTSS me permite superponer estadísticas de uso de CPU, GPU, temperaturas y tiempos de cuadro (frametime) directamente sobre mis aplicaciones. Además, su limitador de FPS es el más preciso del mercado para eliminar el micro-stuttering.",
+        fullDesc: "Superpone métricas de uso de CPU, GPU, temperaturas y tiempos de cuadro (frametime). Incluye limitador de FPS a nivel de driver para eliminar micro-stuttering.",
         features: [
             "Overlay en pantalla (OSD) personalizable con MSI Afterburner",
             "Limitador de tasa de refresco/FPS ultrapreciso a nivel de driver",
@@ -108,7 +107,7 @@ const initialApps = [
         iconColor: "#FBBF24",
         website: "https://vb-audio.com/Voicemeeter/banana.htm",
         shortDesc: "Mezclador de audio virtual para enrutar micrófonos, juegos y aplicaciones por separado.",
-        fullDesc: "VoiceMeeter es esencial para gestionar todo el audio de mi computadora. Permite separar las fuentes de sonido (micrófono, llamadas, música, juegos) en canales virtuales independientes para transmisiones o grabaciones impecables.",
+        fullDesc: "Gestiona y enruta las fuentes de audio del sistema (micrófonos, llamadas, música, aplicaciones) en canales virtuales independientes.",
         features: [
             "Enrutamiento de audio multicanal en tiempo real",
             "Ecualización paramétrica y supresión de ruido",
@@ -127,7 +126,7 @@ const initialApps = [
         iconColor: "#007ACC",
         website: "https://code.visualstudio.com",
         shortDesc: "Editor de código ligero, modular y optimizado para desarrollo web y scripts.",
-        fullDesc: "Es mi entorno principal para escribir código HTML, CSS, JavaScript y Python. Su gran ecosistema de extensiones y terminal integrada aceleran mi flujo de trabajo diario.",
+        fullDesc: "Entorno de desarrollo para HTML, CSS, JavaScript y Python con ecosistema de extensiones, terminal integrada y control de versiones.",
         features: [
             "Resaltado de sintaxis ultra-rápido",
             "Terminal integrada y control de versiones Git",
@@ -146,7 +145,7 @@ const initialApps = [
         iconColor: "#C084FC",
         website: "https://visualstudio.microsoft.com",
         shortDesc: "Entorno de desarrollo integrado potente para proyectos nativos en C++, C# y .NET.",
-        fullDesc: "Utilizado para compilación avanzada, desarrollo de aplicaciones nativas de Windows, herramientas de depuración profunda y análisis de rendimiento de código.",
+        fullDesc: "Entorno de compilación avanzada, desarrollo de aplicaciones nativas de Windows, depuración profunda y análisis de rendimiento de código.",
         features: [
             "Depurador de código nativo de nivel profesional",
             "Diseñador visual y herramientas para .NET / C++",
@@ -165,7 +164,7 @@ const initialApps = [
         iconColor: "#F05032",
         website: "https://git-scm.com",
         shortDesc: "Sistema de control de versiones distribuido para rastrear cambios en el código fuente.",
-        fullDesc: "Git me permite gestionar el historial de versiones de todos mis proyectos de software, trabajar con ramas de código y sincronizar cambios con repositorios de manera eficiente.",
+        fullDesc: "Gestiona el historial de versiones de proyectos de software, trabajo con ramas de código y sincronización con repositorios remotos.",
         features: [
             "Gestión de ramas y fusiones (branching & merging)",
             "Consola Git Bash integrada con utilidades Bash",
@@ -184,7 +183,7 @@ const initialApps = [
         iconColor: "#E2E8F0",
         website: "https://obsproject.com",
         shortDesc: "Software de código abierto para transmisión en vivo y grabación de pantalla a alta fidelidad.",
-        fullDesc: "OBS Studio es mi herramienta principal para capturar pantalla a alta tasa de cuadros, grabar tutoriales y transmitir contenido con fuentes de video y audio independientes.",
+        fullDesc: "Herramienta para capturar pantalla a alta tasa de cuadros, grabar tutoriales y transmitir contenido con fuentes de video y audio independientes.",
         features: [
             "Captura de pantalla y aplicaciones acelerada por GPU",
             "Gestión de escenas y fuentes de video ilimitadas",
@@ -203,7 +202,7 @@ const initialApps = [
         iconColor: "#00F2FE",
         website: "https://www.capcut.com",
         shortDesc: "Editor de video ágil con herramientas avanzadas de cortes, efectos y subtítulos.",
-        fullDesc: "CapCut me permite editar videos rápidamente con una interfaz intuitiva, generando subtítulos automáticos y aplicando transiciones y corrección de color en minutos.",
+        fullDesc: "Editor de video acelerado por hardware para cortes rápidos, generación de subtítulos automáticos y corrección de color.",
         features: [
             "Generación de subtítulos automáticos por IA",
             "Biblioteca de efectos, transiciones y filtros modernos",
@@ -222,7 +221,7 @@ const initialApps = [
         iconColor: "#1DB954",
         website: "https://www.spotify.com",
         shortDesc: "Plataforma de streaming de música y podcasts para acompañar sesiones de trabajo.",
-        fullDesc: "Spotify acompaña mis sesiones de programación y estudio con listas de reproducción enfocadas (Lo-Fi, Synthwave, bandas sonoras) para mantener la máxima concentración.",
+        fullDesc: "Plataforma de streaming de audio para reproducción de música en alta calidad y sincronización fluida entre dispositivos.",
         features: [
             "Reproducción de música en alta calidad",
             "Listas de reproducción personalizadas para enfoque",
@@ -241,7 +240,7 @@ const initialApps = [
         iconColor: "#EC4899",
         website: "https://github.com/vkohaupt/vokoscreenNG",
         shortDesc: "Grabador de pantalla ligero y directo para capturas rápidas de escritorio.",
-        fullDesc: "vokoscreenNG es una alternativa ligera para capturar fragmentos de pantalla o ventanas específicas de forma rápida y sin la complejidad de configurar múltiples fuentes.",
+        fullDesc: "Grabador de pantalla ligero para capturar fragmentos de escritorio, ventanas específicas o cámara web sin configuraciones complejas.",
         features: [
             "Grabación rápida de pantalla completa o área seleccionada",
             "Soporte para grabación de cámara web integrada",
@@ -260,7 +259,7 @@ const initialApps = [
         iconColor: "#00A88F",
         website: "https://www.navicat.com",
         shortDesc: "Cliente GUI avanzado para administración simultánea de bases de datos relacionales.",
-        fullDesc: "Navicat Premium me permite conectar y gestionar múltiples bases de datos (MySQL, PostgreSQL, SQLite, MariaDB) desde una única interfaz gráfica nativa con diseñador visual de esquemas.",
+        fullDesc: "Cliente gráfico para conectar y administrar múltiples motores de base de datos relacionales (MySQL, PostgreSQL, SQLite, MariaDB).",
         features: [
             "Conexión simultánea a múltiples motores de base de datos",
             "Diseñador gráfico de modelos de datos y esquemas",
@@ -279,7 +278,7 @@ const initialApps = [
         iconColor: "#3B82F6",
         website: "https://samfw.com",
         shortDesc: "Herramienta especializada en diagnóstico, flasheo y mantenimiento de dispositivos móviles.",
-        fullDesc: "Utilizada para tareas de mantenimiento técnico en dispositivos móviles, actualización de firmware de fábrica, cambio de CSC y diagnóstico avanzado del sistema operativo móvil.",
+        fullDesc: "Herramienta para mantenimiento técnico en dispositivos móviles, flasheo de firmware oficial de fábrica y diagnóstico de hardware.",
         features: [
             "Flasheo rápido de firmware oficial Samsung/Android",
             "Lectura de información y diagnóstico de hardware móvil",
@@ -298,7 +297,7 @@ const initialApps = [
         iconColor: "#F97316",
         website: "https://www.ultraviewer.net",
         shortDesc: "Software de control de escritorio remoto para soporte técnico y asistencia a distancia.",
-        fullDesc: "UltraViewer me permite conectarme de manera rápida y segura al escritorio de otras computadoras para ofrecer soporte técnico remoto, transferir archivos y solucionar problemas a distancia.",
+        fullDesc: "Software de conexión remota para soporte técnico, transferencia de archivos y solución de problemas a distancia.",
         features: [
             "Conexión remota rápida mediante ID y contraseña temporal",
             "Chat en vivo integrado durante la sesión remota",
@@ -317,7 +316,7 @@ const initialApps = [
         iconColor: "#F24E1E",
         website: "https://www.figma.com",
         shortDesc: "Plataforma de diseño de interfaces, maquetación UI/UX y prototipos interactivos.",
-        fullDesc: "Utilizada para estructurar diseños de páginas web, definir paletas de colores, crear componentes reutilizables y prototipar la experiencia de usuario antes de escribir código.",
+        fullDesc: "Plataforma para estructurar diseños de páginas web, definir paletas de colores, crear componentes reutilizables y prototipar interfaces.",
         features: [
             "Diseño vectorial adaptativo con Auto-Layout",
             "Prototipado interactivo de animaciones y flujos",
@@ -336,7 +335,7 @@ const initialApps = [
         iconColor: "#00C4CC",
         website: "https://www.canva.com",
         shortDesc: "Herramienta ágil para creación de piezas gráficas, presentaciones y recursos visuales.",
-        fullDesc: "Canva me ayuda a generar gráficos rápidos, portadas, miniaturas y presentaciones atractivas en cuestión de minutos usando su amplia biblioteca de plantillas y recursos.",
+        fullDesc: "Herramienta gráfica para generar recursos visuales, miniaturas y presentaciones mediante plantillas y elementos vectoriales.",
         features: [
             "Edición rápida por arrastrar y soltar (drag & drop)",
             "Plantillas profesionales para presentaciones y redes",
@@ -355,7 +354,7 @@ const initialApps = [
         iconColor: "#38BDF8",
         website: "https://www.voidtools.com",
         shortDesc: "Motor de búsqueda ultra-rápido que indexa y encuentra cualquier archivo en milisegundos.",
-        fullDesc: "Everything reemplaza la búsqueda lenta de Windows. Indexa millones de archivos de tu disco duro al instante y te permite encontrar cualquier ejecutable, código o archivo en milisegundos.",
+        fullDesc: "Motor de búsqueda que indexa el almacenamiento del sistema para encontrar archivos, ejecutables y carpetas en milisegundos.",
         features: [
             "Búsqueda instantánea por nombre de archivo mientras escribes",
             "Uso mínimo de memoria y procesador",
@@ -374,7 +373,7 @@ const initialApps = [
         iconColor: "#FF5722",
         website: "https://localsend.org",
         shortDesc: "Herramienta de código abierto para enviar archivos en red local sin conexión a internet.",
-        fullDesc: "LocalSend es una alternativa libre y privada a AirDrop. Permite transferir fotos, videos y archivos pesados entre mi PC y teléfono a través del Wi-Fi local sin subir nada a la nube.",
+        fullDesc: "Transfiere archivos, documentos y carpetas entre dispositivos conectados a la misma red local Wi-Fi sin subir datos a internet.",
         features: [
             "Transferencia ultrarrápida por red local (Wi-Fi)",
             "100% libre, de código abierto y sin anuncios",
@@ -393,7 +392,7 @@ const initialApps = [
         iconColor: "#3776AB",
         website: "https://www.python.org",
         shortDesc: "Lenguaje de programación versátil para desarrollo de scripts, automatización e IA.",
-        fullDesc: "Python es mi lenguaje principal para automatizar tareas repetitivas, crear scripts de análisis de datos, interactuar con APIs y desarrollar modelos de aprendizaje automático.",
+        fullDesc: "Lenguaje de programación optimizado para automatizar tareas, desarrollar scripts de procesamiento de datos e integrar modelos de aprendizaje automático.",
         features: [
             "Sintaxis limpia, legible y expresiva",
             "Entorno interactivo IDLE para pruebas de código rápidas",
@@ -412,7 +411,7 @@ const initialApps = [
         iconColor: "#FCC624",
         website: "https://learn.microsoft.com/windows/wsl",
         shortDesc: "Entorno nativo de Linux dentro de Windows para ejecutar comandos Bash y contenedores.",
-        fullDesc: "WSL me permite correr una distribución completa de Linux (como Ubuntu) dentro de Windows sin la sobrecarga de una máquina virtual, pudiendo usar herramientas de consola nativas.",
+        fullDesc: "Ejecuta distribuciones nativas de Linux (como Ubuntu) dentro de Windows sin la sobrecarga de una máquina virtual tradicional.",
         features: [
             "Integración perfecta entre el sistema de archivos Windows y Linux",
             "Ejecución nativa de binarios de Linux en consola Bash",
@@ -431,7 +430,7 @@ const initialApps = [
         iconColor: "#A855F7",
         website: "https://www.ganttproject.biz",
         shortDesc: "Herramienta de código abierto para planificación de proyectos y diagramas de Gantt.",
-        fullDesc: "Utilizado para planificar las fases de desarrollo de software, establecer cronogramas, definir hitos y gestionar la asignación de recursos en mis proyectos.",
+        fullDesc: "Herramienta para estructurar cronogramas de desarrollo, definir hitos de proyectos y gestionar la asignación de recursos.",
         features: [
             "Creación fácil de diagramas de Gantt y listas de tareas",
             "Asignación de recursos y cálculo de ruta crítica",
@@ -450,7 +449,7 @@ const initialApps = [
         iconColor: "#EAB308",
         website: "https://github.com/Winhance",
         shortDesc: "Utilidad de optimización y ajuste fino para mejorar el rendimiento de Windows.",
-        fullDesc: "Winhance es una herramienta de personalización que me ayuda a desactivar servicios innecesarios de Windows, limpiar archivos temporales y mantener el sistema ágil.",
+        fullDesc: "Utilidad de mantenimiento para deshabilitar servicios innecesarios de Windows, eliminar archivos temporales y optimizar la respuesta del sistema.",
         features: [
             "Limpieza de almacenamiento temporal del sistema",
             "Ajustes de privacidad y optimización de servicios",
@@ -469,7 +468,7 @@ const initialApps = [
         iconColor: "#22C55E",
         website: "https://systeminformer.sourceforge.io",
         shortDesc: "Administrador de tareas avanzado para inspección profunda de memoria, hilos y red.",
-        fullDesc: "Reemplazo avanzado del administrador de tareas de Windows. Lo uso para monitorear el consumo exacto de RAM y CPU de cada proceso, detectar conexiones de red y liberar recursos.",
+        fullDesc: "Administrador de tareas avanzado para inspeccionar el uso de memoria RAM y CPU por proceso, analizar conexiones de red y liberar recursos.",
         features: [
             "Árbol detallado de procesos del sistema",
             "Inspección de archivos bloqueados y handles",
@@ -488,7 +487,7 @@ const initialApps = [
         iconColor: "#EF4444",
         website: "https://www.msi.com/Landing/afterburner",
         shortDesc: "Monitoreo de temperaturas, velocidades de reloj y rendimiento gráfico en tiempo real.",
-        fullDesc: "Utilizado para controlar las curvas de ventilación de la tarjeta gráfica, monitorear temperaturas de componentes y superponer métricas de rendimiento en pantalla (OSD).",
+        fullDesc: "Controla perfiles de ventilación de GPU, monitorea temperaturas de componentes y superpone métricas de rendimiento en pantalla.",
         features: [
             "Overlays en pantalla de uso de GPU/CPU y FPS",
             "Control de perfiles de ventiladores y temperatura",
@@ -507,7 +506,7 @@ const initialApps = [
         iconColor: "#06B6D4",
         website: "https://coderbag.com/product/quickcpu",
         shortDesc: "Ajuste y monitoreo fino de frecuencia, consumo y distribución de núcleos del procesador.",
-        fullDesc: "Quick CPU me permite monitorear las temperaturas de los núcleos del procesador, ajustar los estados de energía y prevenir estrangulamiento térmico (thermal throttling).",
+        fullDesc: "Monitorea temperaturas por núcleo individual, ajusta perfiles de energía de CPU y gestiona el estacionamiento de núcleos.",
         features: [
             "Monitoreo de temperatura por núcleo individual",
             "Ajuste de estacionamiento de núcleos (Core Parking)",
@@ -526,7 +525,7 @@ const initialApps = [
         iconColor: "#FB7A24",
         website: "https://www.apachefriends.org",
         shortDesc: "Entorno de desarrollo local integrado con Apache, MySQL/MariaDB y PHP.",
-        fullDesc: "XAMPP me proporciona un servidor web completo en mi máquina para probar bases de datos relacionales, scripts PHP y proyectos web sin necesidad de servidores externos.",
+        fullDesc: "Servidor web local integrado con módulos Apache, bases de datos MySQL/MariaDB y gestor phpMyAdmin.",
         features: [
             "Panel de control rápido para iniciar Apache y MySQL",
             "Gestor phpMyAdmin para administración de bases de datos",
@@ -545,7 +544,7 @@ const initialApps = [
         iconColor: "#5FA04E",
         website: "https://nodejs.org",
         shortDesc: "Entorno de ejecución de JavaScript del lado del servidor para herramientas y frameworks.",
-        fullDesc: "Node.js es fundamental para ejecutar scripts de automatización, construir APIs de servidor y gestionar paquetes de software a través de NPM.",
+        fullDesc: "Entorno de ejecución para ejecutar JavaScript del lado del servidor, construir servicios HTTP y administrar paquetes vía NPM.",
         features: [
             "Ejecución asíncrona de JavaScript de alto rendimiento",
             "Gestor de paquetes NPM para instalar librerías",
@@ -564,7 +563,7 @@ const initialApps = [
         iconColor: "#2B61B6",
         website: "https://www.qbittorrent.org",
         shortDesc: "Cliente de descargas P2P ligero, libre de publicidad y de código abierto.",
-        fullDesc: "Utilizado para descargar distribuciones de Linux, recursos de código abierto y archivos pesados con alto ancho de banda y bajo consumo de memoria.",
+        fullDesc: "Cliente P2P de código abierto para descarga de archivos y distribuciones de software con alto ancho de banda.",
         features: [
             "Interfaz limpia sin anuncios ni spyware",
             "Motor de búsqueda de torrents integrado",
@@ -583,7 +582,7 @@ const initialApps = [
         iconColor: "#FF8800",
         website: "https://www.videolan.org/vlc",
         shortDesc: "Reproductor multimedia universal compatible con cualquier formato de audio y video.",
-        fullDesc: "Es mi reproductor de video de confianza. Abre cualquier formato sin necesidad de instalar códecs adicionales y cuenta con ajustes de sincronización de audio y subtítulos en tiempo real.",
+        fullDesc: "Reproductor multimedia universal que soporta la mayoría de códecs y contenedores de video sin necesidad de paquetes adicionales.",
         features: [
             "Soporte nativo para códecs H.264, HEVC, AV1, MP4, MKV",
             "Sincronización de audio y subtítulos sobre la marcha",
@@ -602,7 +601,7 @@ const initialApps = [
         iconColor: "#60B7E6",
         website: "https://www.win-rar.com",
         shortDesc: "Gestor de compresión y descompresión de archivos RAR, ZIP y 7z.",
-        fullDesc: "Imprescindible para empaquetar grandes carpetas de proyectos, comprimir archivos para envío y extraer rápidamente descargas comprimidas.",
+        fullDesc: "Gestor de compresión para empaquetar archivos, cifrar contenedores con contraseña y extraer datos comprimidos.",
         features: [
             "Soporte nativo para formatos RAR5 y ZIP",
             "Compresión multihilo acelerada",
@@ -621,7 +620,7 @@ const initialApps = [
         iconColor: "#183A61",
         website: "https://www.virtualbox.org",
         shortDesc: "Plataforma de virtualización para probar sistemas operativos aislados.",
-        fullDesc: "Me permite probar distribuciones de Linux, entornos de desarrollo aislados y configuraciones de red de manera segura en máquinas virtuales sin alterar mi sistema principal.",
+        fullDesc: "Plataforma de virtualización para ejecutar sistemas operativos aislados (Linux, Windows) en entornos seguros.",
         features: [
             "Creación de máquinas virtuales aisladas (Linux/Windows)",
             "Captura de instantáneas (Snapshots) para restaurar estados",
@@ -640,7 +639,7 @@ const initialApps = [
         iconColor: "#26A5E4",
         website: "https://desktop.telegram.org",
         shortDesc: "Cliente de mensajería rápido y encriptado para comunicación y transferencia de archivos.",
-        fullDesc: "Telegram es mi principal vía de comunicación para compartir archivos pesados de forma instantánea entre dispositivos, unirme a comunidades de programación y recibir notificaciones.",
+        fullDesc: "Cliente de mensajería instantánea con almacenamiento ilimitado en la nube, envío de archivos pesados y soporte para bots.",
         features: [
             "Envío de archivos de hasta 2GB sin compresión",
             "Sincronización instantánea en la nube entre dispositivos",
@@ -659,7 +658,7 @@ const initialApps = [
         iconColor: "#5865F2",
         website: "https://github.com/Vencord/Vesktop",
         shortDesc: "Cliente optimizado de Discord con menor consumo de memoria y transmisión fluida.",
-        fullDesc: "Vesktop reemplaza al cliente oficial de Discord ofreciendo mejor rendimiento, fluidez en la compartición de pantalla y menor uso de CPU durante llamadas de voz y trabajo en equipo.",
+        fullDesc: "Cliente optimizado de Discord con menor consumo de memoria RAM y CPU, y mejor rendimiento en transmisiones de pantalla.",
         features: [
             "Menor consumo de recursos de CPU y RAM que Discord oficial",
             "Compartición de pantalla fluida a 60 FPS",
@@ -678,7 +677,7 @@ const initialApps = [
         iconColor: "#64748B",
         website: "https://crystalmark.info/en/software/crystaldiskinfo/",
         shortDesc: "Herramienta de monitoreo de salud, temperatura y estado S.M.A.R.T. de discos SSD y HDD.",
-        fullDesc: "CrystalDiskInfo me permite verificar rápidamente la salud de mis unidades de almacenamiento SSD y discos duros, leyendo los atributos S.M.A.R.T., horas de encendido y temperaturas en tiempo real.",
+        fullDesc: "Herramienta de diagnóstico que lee atributos S.M.A.R.T., temperaturas en tiempo real y estado de salud de SSDs y HDDs.",
         features: [
             "Lectura del estado de salud (Bueno, Riesgo, Malo)",
             "Monitoreo de temperatura en tiempo real y alertas",
@@ -697,7 +696,7 @@ const initialApps = [
         iconColor: "#E11D48",
         website: "https://handbrake.fr",
         shortDesc: "Transcodificador de video de código abierto para convertir y comprimir formatos de video.",
-        fullDesc: "HandBrake me permite convertir videos a formatos optimizados (MP4, MKV), reducir el peso de archivos sin perder calidad y ajustar códecs como H.264, HEVC o AV1.",
+        fullDesc: "Transcodificador de video de código abierto para convertir formatos y comprimir archivos sin pérdida de calidad visual.",
         features: [
             "Compresión eficiente manteniendo calidad visual",
             "Soporte para codificación AV1, H.265 (HEVC) y H.264",
@@ -716,7 +715,7 @@ const initialApps = [
         iconColor: "#FFFFFF",
         website: "https://www.notion.so",
         shortDesc: "Espacio de trabajo todo en uno para notas, bases de datos, tareas y documentos.",
-        fullDesc: "Notion es mi espacio para estructurar proyectos, crear wikis personales, organizar listas y mantener bases de datos vinculadas de forma flexible.",
+        fullDesc: "Espacio de trabajo modular para crear wikis, organizar listas de tareas y estructurar bases de datos relacionales.",
         features: [
             "Bases de datos relacionales con vistas de tabla, Kanban y calendario",
             "Organización modular basada en bloques de texto y contenido",
@@ -735,7 +734,7 @@ const initialApps = [
         iconColor: "#8B5CF6",
         website: "https://github.com/cjpais/handy",
         shortDesc: "Herramienta de transcripción y dictado de voz a texto local asistida por IA.",
-        fullDesc: "Handy es una aplicación de escritorio ligera que te permite dictar texto en cualquier ventana mediante atajos globales de teclado utilizando modelos de lenguaje/reconocimiento local Whisper.",
+        fullDesc: "Aplicación de dictado de voz a texto en tiempo real que ejecuta el modelo Whisper offline para transcripciones locales de alta precisión.",
         features: [
             "Dictado por voz instantáneo con Whisper offline",
             "Atajo global configurable para dictar en cualquier app",
@@ -754,7 +753,7 @@ const initialApps = [
         iconColor: "#3B82F6",
         website: "https://www.hwinfo.com/",
         shortDesc: "Herramienta profesional de diagnóstico e información detallada del hardware del sistema.",
-        fullDesc: "HWiNFO64 proporciona monitoreo exhaustivo de sensores en tiempo real (temperaturas, voltajes, frecuencias, consumo térmico) y especificaciones detalladas de cada componente.",
+        fullDesc: "Herramienta de diagnóstico profesional que proporciona monitoreo exhaustivo de sensores (temperaturas, voltajes, frecuencias, consumo).",
         features: [
             "Monitoreo preciso de sensores de CPU, GPU, RAM y SSD",
             "Detección detallada de arquitectura e información de componentes",
@@ -773,7 +772,7 @@ const initialApps = [
         iconColor: "#F43F5E",
         website: "https://www.upscayl.org/",
         shortDesc: "Mejorador y escalador de imágenes por Inteligencia Artificial basado en modelos locales Real-ESRGAN.",
-        fullDesc: "Upscayl es un escalador de imágenes de código abierto que utiliza modelos de aprendizaje profundo para aumentar la resolución y nitidez de imágenes sin perder calidad.",
+        fullDesc: "Escalador de imágenes de código abierto que utiliza modelos de aprendizaje profundo para aumentar la resolución y nitidez sin pérdida de detalle.",
         features: [
             "Escalado de resolución hasta 4x / 8x sin pérdida de detalle",
             "Procesamiento 100% local acelerado por GPU (Vulkan)",
@@ -792,7 +791,7 @@ const initialApps = [
         iconColor: "#10B981",
         website: "https://lockhunter.com/",
         shortDesc: "Herramienta para identificar y liberar archivos o carpetas bloqueados por procesos en ejecución.",
-        fullDesc: "LockHunter te muestra qué programa está impidiendo borrar, mover o renombrar un archivo y te permite finalizar el proceso o liberar el bloqueo de forma segura.",
+        fullDesc: "Identifica procesos que bloquean archivos o carpetas en Windows y permite liberarlos o eliminarlos de forma segura.",
         features: [
             "Visualización exacta del proceso que bloquea un archivo",
             "Opción para cerrar proceso, desbloquear o eliminar al reiniciar",
@@ -803,5 +802,3 @@ const initialApps = [
         os: ["Windows"]
     }
 ];
-
-

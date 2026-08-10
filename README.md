@@ -1,6 +1,6 @@
-# Mis Apps
+# DEMONEYESS
 
-Un muestrario web minimalista para organizar y visualizar las aplicaciones, utilidades y herramientas que uso a diario en mi sistema.
+Una plataforma web cibernética minimalista para organizar y visualizar las aplicaciones, utilidades y herramientas instaladas en mi sistema.
 
 ## Características
 

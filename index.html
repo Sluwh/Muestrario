@@ -4,9 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mis apps - Sluwh</title>
+  <title>@demoneyess</title>
   <meta name="description"
-    content="Muestrario minimalista de aplicaciones y herramientas útiles instaladas en mi sistema, con conexiones interactivas.">
+    content="Plataforma cibernética de aplicaciones y herramientas útiles instaladas en mi sistema.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="stylesheet" href="styles.css">
   <!-- Iconify CDN para Iconos Vectoriales SVG Profesionales -->
   <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
@@ -14,33 +15,54 @@
 
 <body>
 
-  <!-- Cursor Personalizado -->
-  <div class="cursor-ring" id="cursor-ring"></div>
-  <div class="cursor-dot" id="cursor-dot"></div>
-
-  <!-- Pantalla de Carga (Preloader) -->
-  <div class="preloader" id="preloader">
-    <div class="preloader-brand">
-      <div class="preloader-word">
-        <span>M</span><span>U</span><span>E</span><span>S</span><span>T</span><span>R</span><span>A</span><span>R</span><span>I</span><span>O</span>
-      </div>
-    </div>
-    <div class="preloader-line"></div>
+  <!-- Cursor Retícula Crosshair Retro (Respuesta 1:1 Instantánea Sin Delay) -->
+  <div class="cursor-crosshair" id="cursor-crosshair">
+    <div class="ch-line top"></div>
+    <div class="ch-line bottom"></div>
+    <div class="ch-line left"></div>
+    <div class="ch-line right"></div>
+    <div class="ch-center"></div>
   </div>
 
-  <!-- Capa de Luz Ambiental -->
+  <!-- Pantalla de Carga Estilo Terminal Clásico Antiguo (Preloader) -->
+  <div class="preloader" id="preloader">
+    <div class="retro-terminal-box">
+      <div class="term-bar-retro">
+        <span class="term-title-retro">[ VAX-8086 SYSTEM BIOS // @demoneyess ]</span>
+      </div>
+      <div class="preloader-brand">
+        <div class="preloader-word">
+          <span>@</span><span>d</span><span>e</span><span>m</span><span>o</span><span>n</span><span>e</span><span>y</span><span>e</span><span>s</span><span>s</span>
+        </div>
+      </div>
+      <div class="preloader-logs">
+        <div class="log-line">CPU: KERNEL_8086 INIT... <span class="txt-ok">[OK]</span></div>
+        <div class="log-line">MEM: 640KB RAM CHECK... <span class="txt-ok">[OK]</span></div>
+        <div class="log-line">MOUNTING /DEV/APPS... <span class="txt-ok">[34 NODES FOUND]</span></div>
+        <div class="log-line">LAUNCHING DEMONEYESS... <span class="term-block-blink">█</span></div>
+      </div>
+      <div class="preloader-line"></div>
+    </div>
+  </div>
+
+  <!-- Capa de Luz Ambiental Verde -->
   <div class="ambient-glow"></div>
 
   <!-- Contenedor Principal -->
   <div class="app-wrapper">
 
-    <!-- Encabezado / Barra Superior -->
+    <!-- Encabezado / Barra Superior Estilo Terminal -->
     <header>
-      <a href="#" class="brand hover-trigger">
+      <a href="#" class="brand hover-trigger" id="brand-link">
         <div class="brand-dot"></div>
-        <span class="brand-title">MIS APPS</span>
-        <span class="brand-tag" id="app-counter">34 HERRAMIENTAS</span>
+        <span class="brand-title">@demoneyess</span>
+        <span class="brand-tag" id="app-counter">[34 HERRAMIENTAS]</span>
       </a>
+
+      <div class="terminal-status-bar">
+        <span class="term-prompt">root@sluwh:~#</span>
+        <span class="status-pill"><span class="blink-dot">●</span> ONLINE</span>
+      </div>
 
       <div class="header-actions">
         <!-- Caja de Búsqueda -->
@@ -50,14 +72,14 @@
             <circle cx="11" cy="11" r="8"></circle>
             <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
           </svg>
-          <input type="text" id="search-input" placeholder="Buscar aplicaciones..." autocomplete="off">
+          <input type="text" id="search-input" placeholder="> buscar_app..." autocomplete="off">
         </div>
       </div>
     </header>
 
     <!-- Barra de Filtros por Categoría -->
     <div class="category-bar" id="category-bar">
-      <button class="cat-pill active hover-trigger" data-category="ALL">Todas las Apps</button>
+      <button class="cat-pill active hover-trigger" data-category="ALL">TODAS_LAS_APPS</button>
       <button class="cat-pill hover-trigger" data-category="Desarrollo">Desarrollo</button>
       <button class="cat-pill hover-trigger" data-category="Productividad">Productividad</button>
       <button class="cat-pill hover-trigger" data-category="Multimedia">Multimedia</button>
@@ -73,7 +95,7 @@
         <defs>
           <marker id="arrow-head" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6"
             orient="auto-start-reverse">
-            <path d="M 0 0 L 10 5 L 0 10 z" fill="#ffffff" />
+            <path d="M 0 0 L 10 5 L 0 10 z" fill="#00FF7B" />
           </marker>
         </defs>
         <path id="connector-path" class="connector-path" d="" marker-end="url(#arrow-head)" />
@@ -81,7 +103,7 @@
 
       <!-- Columna Izquierda: Lista de Aplicaciones (Desplazable) -->
       <div class="app-list-section">
-        <div class="section-label">APLICACIONES INSTALADAS</div>
+        <div class="section-label">// APLICACIONES_INSTALADAS <span class="term-cursor">▋</span></div>
         <div id="apps-list">
           <!-- Poblado dinámicamente con main.js -->
         </div>
