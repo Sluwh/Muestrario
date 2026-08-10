@@ -63,9 +63,22 @@
     }, frameInterval);
   }
 
+  // Detectar si el dispositivo es táctil o pantalla móvil pequeña
+  function isTouchOrMobileDevice() {
+    return window.matchMedia('(pointer: coarse)').matches ||
+           window.matchMedia('(hover: none)').matches ||
+           window.innerWidth <= 868 ||
+           ('ontouchstart' in window);
+  }
+
   // --- Cursor Retícula Crosshair Retro (Respuesta Instantánea 1:1 Sin Delay) ---
   function initCursor() {
     if (!cursorCrosshair) return;
+
+    if (isTouchOrMobileDevice()) {
+      cursorCrosshair.style.display = 'none';
+      return;
+    }
 
     window.addEventListener('mousemove', (e) => {
       // Posicionamiento instantáneo 1:1 sin delay ni física lerp retardada
@@ -76,7 +89,7 @@
   }
 
   function attachCursorTriggers() {
-    if (!cursorCrosshair) return;
+    if (!cursorCrosshair || isTouchOrMobileDevice()) return;
 
     document.querySelectorAll('.hover-trigger, button, a, input, select, .app-item').forEach(el => {
       if (el.dataset.triggerAttached === 'true') return;
@@ -251,9 +264,6 @@
     const detailsCard = document.getElementById('app-details-card');
     if (detailsCard) {
       detailsCard.scrollTop = 0;
-      if (window.innerWidth <= 868) {
-        detailsCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
     }
 
     requestAnimationFrame(() => {
@@ -333,13 +343,16 @@
   }
 
   function dismissPreloader() {
+    // TIEMPO DE LA PANTALLA DE CARGA (en milisegundos): Puedes modificar este valor si deseas más o menos tiempo (ej. 2500 = 2.5 seg)
+    const PRELOADER_DELAY = 2200;
+
     setTimeout(() => {
       preloader.classList.add('fade-out');
       setTimeout(() => {
         preloader.style.display = 'none';
         updateConnectorLine();
       }, 600);
-    }, 1100);
+    }, PRELOADER_DELAY);
   }
 
   function escapeHtml(str) {
